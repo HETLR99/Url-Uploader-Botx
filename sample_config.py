@@ -2,13 +2,13 @@ import os
 
 class Config(object):
     # get a token from @BotFather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6481057688:AAEUzfpPZ8D5o6I5cGFAS3Lg1DfNleiaKkI")
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7330436352:AAHUJUNGytd9bTY1otHe7EVwJlN4km0usXw")
     # The Telegram API things
-    APP_ID = int(os.environ.get("APP_ID", "20244111"))
-    API_HASH = os.environ.get("API_HASH", "b76d27da2a4220fe109fe9ef0e866530")
+    APP_ID = int(os.environ.get("APP_ID", "20077058"))
+    API_HASH = os.environ.get("API_HASH", "349639880eb5b1cb0ff6c2b8a6f16717")
     # Get these values from my.telegram.org
     # Array to store users who are authorized to use the bot
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "5572938538").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "6169288210").split())
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     # Telegram maximum file upload size
@@ -18,7 +18,7 @@ class Config(object):
     # chunk size that should be used with requests
     CHUNK_SIZE = int(os.environ.get("CHUNK_SIZE", 128))
     # default thumbnail to be used in the videos
-    DEF_THUMB_NAIL_VID_S = os.environ.get("DEF_THUMB_NAIL_VID_S", "")
+    DEF_THUMB_NAIL_VID_S = os.environ.get("DEF_THUMB_NAIL_VID_S", "https://k.top4top.io/p_30952y9dv0.jpg")
     # proxy for accessing youtube-dl in GeoRestricted Areas
     # Get your own proxy from https://github.com/rg3/youtube-dl/issues/1091#issuecomment-230163061
     HTTP_PROXY = os.environ.get("HTTP_PROXY", "")
@@ -27,4 +27,4 @@ class Config(object):
     # set timeout for subprocess
     PROCESS_MAX_TIMEOUT = 3600
     # watermark file
-    DEF_WATER_MARK_FILE = ""
+    DEF_WATER_MARK_FILE = "@X_XF8"
